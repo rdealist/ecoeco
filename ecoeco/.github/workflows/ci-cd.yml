@@ -1,0 +1,7 @@
+jobs:
+  build:
+    steps:
+    - name: Install Dependencies
+      run: |
+        brew install swiftlint
+        pod install --repo-update
